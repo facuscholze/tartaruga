@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Tartaruga Sea-Bar — Um dia no farol",
+    "description": "Sea-bar em frente ao farol de Punta Colorada. Mar, fogo e pôr do sol. Reservá mesa."
+  },
+  "skip": "Saltar ao conteúdo",
+  "demo": "DEMO",
+  "nav": {
+    "lugar": "Lugar",
+    "carta": "Cardápio",
+    "fuego": "Fogo",
+    "experiencias": "Experiências",
+    "galeria": "Galeria",
+    "mapa": "Como chegar",
+    "reservas": "Reservas",
+    "open": "Abrir menu",
+    "close": "Fechar menu"
+  },
+  "hero": {
+    "kicker": "Farol de Punta Colorada",
+    "title": "Um dia no farol",
+    "lead": "O mar a um passo, o fogo na mesa, o sol descendo devagar. Aqui o dia se mede em marés e brasas.",
+    "cta": "Reservar mesa",
+    "scroll": "Deslizá o dia"
+  },
+  "lugar": {
+    "kicker": "01 — Lugar",
+    "title": "O deck entra no vento",
+    "p1": "A metros do farol de Punta Colorada, Maldonado. Não é um postal: é o lugar onde fica tarde sem você perceber.",
+    "p2": "Madeira, ferro, cacto e o horizonte de 180 graus. De um lado o oceano, do outro a península. No meio, uma mesa."
+  },
+  "carta": {
+    "kicker": "02 — Cardápio",
+    "title": "O que a maré traz",
+    "lead": "Pesca da costa, brasa e uma panela que não tem pressa. Preços DEMO, a confirmar.",
+    "priceNote": "UYU · DEMO"
+  },
+  "fuego": {
+    "kicker": "03 — Fogo",
+    "title": "A noite cozinha devagar",
+    "lead": "Braseiro, fogão e a panela de ferro no tripé. O mar fica preto; as brasas, não."
+  },
+  "experiencias": {
+    "kicker": "04 — Experiências",
+    "title": "Ficar até apagar",
+    "cta": "Quero esta mesa"
+  },
+  "pet": {
+    "kicker": "05 — Pet friendly",
+    "title": "Traz o cachorro",
+    "lead": "Tem água fresca, sombra debaixo da mesa e o mesmo horizonte. O mar é de todos."
+  },
+  "artesanal": {
+    "kicker": "06 — Artesanal",
+    "title": "Ferro, madeira, sal",
+    "lead": "Esculturas de metal oxidado recortado, decks que cheiram a sol, fogo que não é decoração. Tudo feito à mão, a metros do farol."
+  },
+  "galeria": {
+    "kicker": "07 — Galeria",
+    "title": "O que fica na retina",
+    "lead": "Placeholders de cor até entrarem as fotos reais. Toque para ampliar.",
+    "close": "Fechar"
+  },
+  "mapa": {
+    "kicker": "08 — Como chegar",
+    "title": "Punta Colorada, o remate do farol",
+    "openMaps": "Abrir no Google Maps",
+    "directions": "Como chegar",
+    "mapLabel": "Mapa de Punta Colorada com o farol"
+  },
+  "reservas": {
+    "kicker": "09 — Reservas",
+    "title": "Uma mesa, teu nome, o mar",
+    "lead": "Armamos a mensagem e te deixamos no WhatsApp. Também podes ligar.",
+    "name": "Nome",
+    "date": "Data",
+    "people": "Pessoas",
+    "pet": "Vens com pet?",
+    "petYes": "Sim, com cachorro",
+    "petNo": "Não",
+    "notes": "Notas (opcional)",
+    "submit": "Reservar no WhatsApp",
+    "phone": "Ligar",
+    "demoWa": "WhatsApp DEMO — trocar o número em contact.ts",
+    "required": "Completá nome, data e pessoas."
+  },
+  "beneficios": {
+    "kicker": "10 — Para voltar",
+    "title": "Um par de desculpas",
+    "lead": "Promos discretas, sem quebrar o pôr do sol. Tudo DEMO."
+  },
+  "footer": {
+    "hours": "Horários",
+    "social": "Instagram",
+    "lang": "Idioma",
+    "rights": "Tartaruga Sea-Bar · Farol de Punta Colorada",
+    "egg": "A tartaruga nada se você insiste."
+  },
+  "ui": {
+    "soundOn": "Som de ondas ligado",
+    "soundOff": "Som de ondas, desligado",
+    "sound": "Ondas",
+    "timeMode": "Modo hora",
+    "auto": "Auto",
+    "noon": "Meio-dia",
+    "sunset": "Pôr do sol",
+    "night": "Noite",
+    "loading": "Carregando Tartaruga"
+  }
+}

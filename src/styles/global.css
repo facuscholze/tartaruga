@@ -1,11 +1,10 @@
 @import '@fontsource/fraunces/400.css';
 @import '@fontsource/fraunces/400-italic.css';
 @import '@fontsource/fraunces/600.css';
-@import '@fontsource/fraunces/700.css';
 @import '@fontsource/jetbrains-mono/400.css';
-@import '@fontsource/jetbrains-mono/500.css';
 @import 'tailwindcss';
 @import './tokens.css';
+@import 'lenis/dist/lenis.css';
 
 html {
   scroll-behavior: auto;
@@ -62,6 +61,12 @@ body {
   cursor: none !important;
 }
 
+.has-custom-cursor input,
+.has-custom-cursor textarea,
+.has-custom-cursor select {
+  cursor: text !important;
+}
+
 .grain {
   pointer-events: none;
   position: fixed;
@@ -87,6 +92,35 @@ body {
   will-change: transform;
 }
 
+.marquee-track {
+  animation: marquee 36s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--amber);
+}
+
+.leaflet-container {
+  background: #0b1020;
+  font-family: var(--font-display);
+  height: 100%;
+}
+
+.tartaruga-marker {
+  background: transparent;
+  border: 0;
+}
+
 .demo-chip {
   font-family: var(--font-mono);
   font-size: 0.62rem;
@@ -106,6 +140,11 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  .grain,
+  .marquee-track {
+    animation: none !important;
   }
 
   .grain {
