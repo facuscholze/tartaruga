@@ -1,0 +1,51 @@
+/* Tartaruga Sea-Bar — tokens de marca. No inventar colores fuera de este archivo. */
+@theme {
+  --color-navy: #16213f;
+  --color-navy-deep: #0b1020;
+  --color-foam: #f7f1e8;
+  --color-ink: #1a140f;
+  --color-sunset: #e85d04;
+  --color-ember: #dc2f02;
+  --color-wine: #9d0208;
+  --color-amber: #e9c46a;
+  --color-gold: #f4a261;
+  --color-wood: #6f4e37;
+  --color-copper: #b87333;
+  --color-oxide: #c45c26;
+  --color-cactus: #2d6a4f;
+  --color-sage: #40916c;
+  --color-sand: #e6ccb2;
+  --color-dune: #ddb892;
+  --color-twilight: #3d2c56;
+  --color-violet: #5c4b8a;
+  --color-noon: #87b8d9;
+  --font-display: 'Fraunces', 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --shadow-card: 0 24px 60px rgb(11 16 32 / 0.35);
+  --ease-tide: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --navy: #16213f;
+  --navy-deep: #0b1020;
+  --foam: #f7f1e8;
+  --ink: #1a140f;
+  --sunset: #e85d04;
+  --ember: #dc2f02;
+  --wine: #9d0208;
+  --amber: #e9c46a;
+  --gold: #f4a261;
+  --wood: #6f4e37;
+  --copper: #b87333;
+  --oxide: #c45c26;
+  --cactus: #2d6a4f;
+  --sage: #40916c;
+  --sand: #e6ccb2;
+  --dune: #ddb892;
+  --twilight: #3d2c56;
+  --violet: #5c4b8a;
+  --noon: #87b8d9;
+  --day-progress: 0;
+  --font-display: 'Fraunces', 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
