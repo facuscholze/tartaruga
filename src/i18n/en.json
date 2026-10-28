@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Tartaruga Sea-Bar — A day at the lighthouse",
+    "description": "Sea-bar by the Punta Colorada lighthouse. Sea, fire and sunset. Book a table."
+  },
+  "skip": "Skip to content",
+  "demo": "DEMO",
+  "nav": {
+    "lugar": "Place",
+    "carta": "Menu",
+    "fuego": "Fire",
+    "experiencias": "Experiences",
+    "galeria": "Gallery",
+    "mapa": "Find us",
+    "reservas": "Booking",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "hero": {
+    "kicker": "Punta Colorada lighthouse",
+    "title": "A day at the lighthouse",
+    "lead": "The sea one step away, fire at the table, the sun taking its time. Here the day is measured in tides and embers.",
+    "cta": "Book a table",
+    "scroll": "Scroll the day"
+  },
+  "lugar": {
+    "kicker": "01 — Place",
+    "title": "The deck leans into the wind",
+    "p1": "Metres from the Punta Colorada lighthouse, Maldonado. Not a postcard: the place where it gets late without you noticing.",
+    "p2": "Wood, iron, cactus and a 180-degree horizon. Ocean on one side, peninsula on the other. A table in between."
+  },
+  "carta": {
+    "kicker": "02 — Menu",
+    "title": "Whatever the tide brings",
+    "lead": "Coastal catch, embers, a pot that refuses to hurry. DEMO prices, to confirm.",
+    "priceNote": "UYU · DEMO"
+  },
+  "fuego": {
+    "kicker": "03 — Fire",
+    "title": "Night cooks slowly",
+    "lead": "Brazier, hearth and the iron pot on its tripod. The sea goes black; the embers do not."
+  },
+  "experiencias": {
+    "kicker": "04 — Experiences",
+    "title": "Stay until it dies down",
+    "cta": "I want this table"
+  },
+  "pet": {
+    "kicker": "05 — Pet friendly",
+    "title": "Bring the dog",
+    "lead": "Fresh water, shade under the table, the same horizon. The sea belongs to everyone."
+  },
+  "artesanal": {
+    "kicker": "06 — Handmade",
+    "title": "Iron, wood, salt",
+    "lead": "Pierced oxidised sculptures, sun-warmed decks, fire that is not décor. All made by hand, metres from the lighthouse."
+  },
+  "galeria": {
+    "kicker": "07 — Gallery",
+    "title": "What stays on the retina",
+    "lead": "Colour placeholders until the real photos arrive. Tap to enlarge.",
+    "close": "Close"
+  },
+  "mapa": {
+    "kicker": "08 — Find us",
+    "title": "Punta Colorada, where the lighthouse ends",
+    "openMaps": "Open in Google Maps",
+    "directions": "Directions",
+    "mapLabel": "Map of Punta Colorada with the lighthouse"
+  },
+  "reservas": {
+    "kicker": "09 — Booking",
+    "title": "A table, your name, the sea",
+    "lead": "We write the message and hand you to WhatsApp. Or just call.",
+    "name": "Name",
+    "date": "Date",
+    "people": "Guests",
+    "pet": "Bringing a pet?",
+    "petYes": "Yes, with a dog",
+    "petNo": "No",
+    "notes": "Notes (optional)",
+    "submit": "Book on WhatsApp",
+    "phone": "Call",
+    "demoWa": "DEMO WhatsApp — replace the number in contact.ts",
+    "required": "Please add a name, date and party size."
+  },
+  "beneficios": {
+    "kicker": "10 — Reasons to return",
+    "title": "A couple of excuses",
+    "lead": "Quiet promos, without breaking the sunset. All DEMO."
+  },
+  "footer": {
+    "hours": "Hours",
+    "social": "Instagram",
+    "lang": "Language",
+    "rights": "Tartaruga Sea-Bar · Punta Colorada lighthouse",
+    "egg": "The turtle swims if you insist."
+  },
+  "ui": {
+    "soundOn": "Wave sound on",
+    "soundOff": "Wave sound, muted",
+    "sound": "Waves",
+    "timeMode": "Time of day",
+    "auto": "Auto",
+    "noon": "Noon",
+    "sunset": "Sunset",
+    "night": "Night",
+    "loading": "Loading Tartaruga"
+  }
+}
