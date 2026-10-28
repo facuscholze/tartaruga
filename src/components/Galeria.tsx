@@ -6,6 +6,7 @@ import { galleryItems } from '@/data/gallery'
 import { pick } from '@/lib/localized'
 import { Flip } from '@/lib/gsap'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { MediaFrame } from '@/components/MediaFrame'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
@@ -51,11 +52,11 @@ export function Galeria() {
                   onClick={() => openItem(g.id)}
                   className="block w-full overflow-hidden rounded-[1.5rem] text-left"
                 >
-                  <div
+                  <MediaFrame
+                    stem={g.photo}
+                    alt={pick(g.alt, i18n.language)}
                     className="aspect-4/5 w-full"
-                    style={{ background: g.gradient }}
-                    role="img"
-                    aria-label={pick(g.alt, i18n.language)}
+                    gradient={g.gradient}
                   />
                   <p className="mt-3 font-mono text-[0.65rem] tracking-[0.18em] text-amber uppercase">
                     {pick(g.title, i18n.language)} · {t('demo')}
@@ -76,8 +77,14 @@ export function Galeria() {
           <div
             ref={full}
             className="aspect-4/5 w-full max-w-md overflow-hidden rounded-[1.5rem]"
-            style={{ background: item.gradient }}
-          />
+          >
+            <MediaFrame
+              stem={item.photo}
+              alt={pick(item.alt, i18n.language)}
+              className="h-full w-full"
+              gradient={item.gradient}
+            />
+          </div>
           <button
             type="button"
             className="absolute top-6 right-6 font-mono text-xs tracking-[0.2em] text-amber uppercase"

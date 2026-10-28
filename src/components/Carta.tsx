@@ -6,6 +6,7 @@ import { motion } from 'motion/react'
 import { menuCategories, menuItems, formatPrice, type MenuCategoryId } from '@/data/menu'
 import { pick } from '@/lib/localized'
 import { useFinePointer, useReducedMotion } from '@/hooks/useReducedMotion'
+import { MediaFrame } from '@/components/MediaFrame'
 import 'swiper/css'
 
 function TiltCard({ children }: { children: ReactNode }) {
@@ -92,6 +93,13 @@ export function Carta() {
               <SwiperSlide key={item.id} className="!h-auto">
                 <TiltCard>
                   <div className="flex h-full min-h-[210px] flex-col">
+                    {item.photo ? (
+                      <MediaFrame
+                        stem={item.photo}
+                        alt={pick(item.name, lang)}
+                        className="mb-4 h-36 w-full rounded-2xl"
+                      />
+                    ) : null}
                     <div className="flex items-start justify-between gap-3">
                       <h3 className="font-display text-2xl">{pick(item.name, lang)}</h3>
                       <span className="demo-chip">{t('demo')}</span>
@@ -107,6 +115,12 @@ export function Carta() {
             ))}
           </Swiper>
         </div>
+        <a
+          href="#reservas"
+          className="mt-10 inline-flex font-mono text-xs tracking-[0.18em] text-amber uppercase"
+        >
+          {t('carta.cta')}
+        </a>
       </div>
     </section>
   )

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { gsap, ScrollTrigger } from '@/lib/gsap'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
 import { ShellMark } from '@/components/Engravings'
+import { MediaFrame } from '@/components/MediaFrame'
 
 export function Lugar() {
   const { t } = useTranslation()
@@ -64,10 +65,23 @@ export function Lugar() {
           <p data-lugar-copy className="mt-4 max-w-md text-foam/80">
             {t('lugar.p2')}
           </p>
+          <a
+            data-lugar-copy
+            href="#reservas"
+            className="mt-8 inline-flex font-mono text-xs tracking-[0.18em] text-amber uppercase"
+          >
+            {t('lugar.cta')}
+          </a>
           <ShellMark className="mt-8 h-14 w-14 text-foam/50" />
         </div>
         <div className="relative h-[420px] overflow-hidden rounded-[2rem] border border-foam/10 bg-navy/40">
-          <svg viewBox="0 0 400 420" className="absolute inset-0 h-full w-full">
+          <MediaFrame
+            stem="deck"
+            alt={t('lugar.title')}
+            className="absolute inset-0 h-full w-full opacity-80"
+            gradient="linear-gradient(180deg, #6F4E37, #16213F)"
+          />
+          <svg viewBox="0 0 400 420" className="absolute inset-0 h-full w-full opacity-70">
             <g className="lugar-sea">
               <path
                 d="M0 220c40 20 80-20 120 0s80-20 120 0 80-20 120 0 40 10 40 10v210H0z"

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tartaruga Sea-Bar — A day at the lighthouse",
-    "description": "Sea-bar by the Punta Colorada lighthouse. Sea, fire and sunset. Book a table."
+    "title": "Tartaruga Sea-Bar | Restaurant and sunset in Punta Colorada",
+    "description": "Restaurant by the Punta Colorada lighthouse. Sea, fire and sunset. Book a table on WhatsApp or by phone."
   },
   "skip": "Skip to content",
   "demo": "DEMO",
@@ -13,42 +13,53 @@
     "galeria": "Gallery",
     "mapa": "Find us",
     "reservas": "Booking",
+    "propuesta": "Proposal",
     "open": "Open menu",
     "close": "Close menu"
   },
   "hero": {
-    "kicker": "Punta Colorada lighthouse",
+    "kicker": "Restaurant · Punta Colorada lighthouse",
     "title": "A day at the lighthouse",
     "lead": "The sea one step away, fire at the table, the sun taking its time. Here the day is measured in tides and embers.",
     "cta": "Book a table",
-    "scroll": "Scroll the day"
+    "scroll": "Scroll the day",
+    "videoLabel": "Sunset in Punta Colorada"
+  },
+  "sticky": {
+    "reserve": "Book",
+    "call": "Call",
+    "map": "Directions"
   },
   "lugar": {
     "kicker": "01 — Place",
     "title": "The deck leans into the wind",
     "p1": "Metres from the Punta Colorada lighthouse, Maldonado. Not a postcard: the place where it gets late without you noticing.",
-    "p2": "Wood, iron, cactus and a 180-degree horizon. Ocean on one side, peninsula on the other. A table in between."
+    "p2": "Wood, iron, cactus and a 180-degree horizon. Ocean on one side, peninsula on the other. A table in between.",
+    "cta": "I want that table"
   },
   "carta": {
     "kicker": "02 — Menu",
     "title": "Whatever the tide brings",
     "lead": "Coastal catch, embers, a pot that refuses to hurry. DEMO prices, to confirm.",
-    "priceNote": "UYU · DEMO"
+    "priceNote": "UYU · DEMO",
+    "cta": "Book and order this"
   },
   "fuego": {
     "kicker": "03 — Fire",
     "title": "Night cooks slowly",
-    "lead": "Brazier, hearth and the iron pot on its tripod. The sea goes black; the embers do not."
+    "lead": "Brazier, hearth and the iron pot on its tripod. The sea goes black; the embers do not.",
+    "cta": "A fire night"
   },
   "experiencias": {
     "kicker": "04 — Experiences",
     "title": "Stay until it dies down",
-    "cta": "I want this table"
+    "cta": "Book this table"
   },
   "pet": {
     "kicker": "05 — Pet friendly",
     "title": "Bring the dog",
-    "lead": "Fresh water, shade under the table, the same horizon. The sea belongs to everyone."
+    "lead": "Fresh water, shade under the table, the same horizon. The sea belongs to everyone.",
+    "cta": "Book with a pet"
   },
   "artesanal": {
     "kicker": "06 — Handmade",
@@ -58,20 +69,33 @@
   "galeria": {
     "kicker": "07 — Gallery",
     "title": "What stays on the retina",
-    "lead": "Colour placeholders until the real photos arrive. Tap to enlarge.",
+    "lead": "Our own photos of the place. Tap to enlarge.",
     "close": "Close"
+  },
+  "reviews": {
+    "kicker": "What people say",
+    "title": "The lighthouse, unfiltered",
+    "followers": "50 thousand followers on Instagram",
+    "note": "DEMO quotes — replace with real reviews."
+  },
+  "instagram": {
+    "kicker": "Instagram",
+    "title": "The feed, still",
+    "lead": "Six frames of the place. The profile stays on Instagram; the table is here.",
+    "cta": "View profile"
   },
   "mapa": {
     "kicker": "08 — Find us",
     "title": "Punta Colorada, where the lighthouse ends",
     "openMaps": "Open in Google Maps",
     "directions": "Directions",
-    "mapLabel": "Map of Punta Colorada with the lighthouse"
+    "mapLabel": "Map of Punta Colorada with the lighthouse",
+    "call": "Call"
   },
   "reservas": {
     "kicker": "09 — Booking",
     "title": "A table, your name, the sea",
-    "lead": "We write the message and hand you to WhatsApp. Or just call.",
+    "lead": "Three steps. We write the message and hand you to WhatsApp. Or just call.",
     "name": "Name",
     "date": "Date",
     "people": "Guests",
@@ -79,15 +103,40 @@
     "petYes": "Yes, with a dog",
     "petNo": "No",
     "notes": "Notes (optional)",
-    "submit": "Book on WhatsApp",
+    "submit": "Open WhatsApp",
     "phone": "Call",
     "demoWa": "DEMO WhatsApp — replace the number in contact.ts",
-    "required": "Please add a name, date and party size."
+    "required": "Please complete this step to continue.",
+    "step": "Step",
+    "of": "of",
+    "next": "Next",
+    "back": "Back",
+    "step1": "When and how many",
+    "step2": "Your name",
+    "step3": "Confirm",
+    "summary": "Check and confirm. One tap and WhatsApp opens with everything written.",
+    "sending": "Opening WhatsApp…",
+    "done": "Done. If it did not open, tap again."
   },
   "beneficios": {
     "kicker": "10 — Reasons to return",
     "title": "A couple of excuses",
     "lead": "Quiet promos, without breaking the sunset. All DEMO."
+  },
+  "propuesta": {
+    "kicker": "Pitch",
+    "title": "What the feed cannot do",
+    "lead": "Instagram shows the sunset. This site seats the table.",
+    "beforeTitle": "Today",
+    "before": "The place lives in the feed. Bookings travel by DM, get lost in stories, and depend on the algorithm.",
+    "afterTitle": "With this site",
+    "after": "One tap: WhatsApp open, table requested. Google finds you. The sunset is still the sunset.",
+    "includes": "What is included",
+    "benefits": "Three things you can measure",
+    "metrics": "Sample panel · DEMO",
+    "metricsNote": "Sample numbers to show what could be measured. Not real data.",
+    "talk": "Let's talk",
+    "talkLead": "If this feels right, write to me and we adapt it to the restaurant."
   },
   "footer": {
     "hours": "Hours",
@@ -105,6 +154,7 @@
     "noon": "Noon",
     "sunset": "Sunset",
     "night": "Night",
-    "loading": "Loading Tartaruga"
+    "loading": "Loading Tartaruga",
+    "skipLoader": "Skip"
   }
 }

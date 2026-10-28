@@ -16,10 +16,10 @@ export function Loader() {
     const el = root.current
     if (!el) return
 
-    const safety = window.setTimeout(() => setLoaderDone(true), 4200)
+    const safety = window.setTimeout(() => setLoaderDone(true), 2000)
 
     if (reduced) {
-      const id = window.setTimeout(() => setLoaderDone(true), 200)
+      const id = window.setTimeout(() => setLoaderDone(true), 150)
       return () => {
         window.clearTimeout(id)
         window.clearTimeout(safety)
@@ -34,19 +34,19 @@ export function Loader() {
       gsap.set(strokes, { drawSVG: 0 })
       tl.to(strokes, {
         drawSVG: '100%',
-        duration: 1.6,
-        stagger: 0.07,
+        duration: 0.85,
+        stagger: 0.035,
         ease: 'power2.inOut',
       })
-      tl.to('.loader-fill', { opacity: 1, duration: 0.45 }, '-=0.25')
+      tl.to('.loader-fill', { opacity: 1, duration: 0.2 }, '-=0.15')
       tl.to(
         el,
         {
           clipPath: 'circle(0% at 50% 50%)',
-          duration: 1.05,
+          duration: 0.55,
           ease: 'power3.inOut',
         },
-        '+=0.15',
+        '+=0.05',
       )
     }, el)
 
@@ -69,8 +69,15 @@ export function Loader() {
     >
       <div className="relative">
         <div className="loader-fill absolute inset-6 rounded-full bg-navy opacity-0" />
-        <TurtleLogo className="relative h-36 w-36 text-foam sm:h-44 sm:w-44" />
+        <TurtleLogo className="relative h-28 w-28 text-foam sm:h-36 sm:w-36" />
       </div>
+      <button
+        type="button"
+        className="absolute right-4 bottom-6 font-mono text-[0.65rem] tracking-[0.18em] text-amber uppercase"
+        onClick={() => setLoaderDone(true)}
+      >
+        {t('ui.skipLoader')}
+      </button>
     </div>
   )
 }

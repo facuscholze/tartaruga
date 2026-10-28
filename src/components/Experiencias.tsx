@@ -4,7 +4,14 @@ import { experiences } from '@/data/experiences'
 import { pick } from '@/lib/localized'
 import { gsap, ScrollTrigger } from '@/lib/gsap'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
-import { MagneticLink } from '@/components/MagneticButton'
+import { MediaFrame } from '@/components/MediaFrame'
+
+const photos: Record<string, string> = {
+  sunset: 'hero-atardecer',
+  brunch: 'deck',
+  fire: 'fuego',
+  events: 'faro',
+}
 
 const tones: Record<string, string> = {
   gold: 'linear-gradient(160deg, #F4A261 0%, #E85D04 55%, #16213F 100%)',
@@ -58,16 +65,26 @@ export function Experiencias() {
             key={exp.id}
             className="w-[min(84vw,420px)] shrink-0 overflow-hidden rounded-[2rem] border border-foam/10"
           >
-            <div className="h-56" style={{ background: tones[exp.tone] }} />
+            <MediaFrame
+              stem={photos[exp.id]}
+              alt={pick(exp.title, i18n.language)}
+              className="h-56 w-full"
+              gradient={tones[exp.tone]}
+            />
             <div className="bg-navy/80 p-6 backdrop-blur">
               <h3 className="font-display text-3xl">{pick(exp.title, i18n.language)}</h3>
               <p className="mt-3 text-sand">{pick(exp.lead, i18n.language)}</p>
-              <MagneticLink href="#reservas" className="mt-6 bg-copper text-navy">
-                {t('experiencias.cta')}
-              </MagneticLink>
             </div>
           </article>
         ))}
+      </div>
+      <div className="mt-10 px-5 sm:px-10">
+        <a
+          href="#reservas"
+          className="inline-flex rounded-full bg-amber px-6 py-3 font-mono text-xs tracking-[0.16em] text-navy uppercase"
+        >
+          {t('experiencias.cta')}
+        </a>
       </div>
     </section>
   )

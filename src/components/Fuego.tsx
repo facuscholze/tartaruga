@@ -24,6 +24,12 @@ export function Fuego() {
           <p className="section-kicker mb-4">{t('fuego.kicker')}</p>
           <h2 className="font-display text-4xl sm:text-6xl">{t('fuego.title')}</h2>
           <p className="mt-6 max-w-lg text-lg text-sand">{t('fuego.lead')}</p>
+          <a
+            href="#reservas"
+            className="mt-8 inline-flex font-mono text-xs tracking-[0.18em] text-amber uppercase"
+          >
+            {t('fuego.cta')}
+          </a>
         </div>
         <IronPot />
       </div>

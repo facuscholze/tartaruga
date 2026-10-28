@@ -14,6 +14,7 @@ export const contact = {
     lat: -34.901,
     lng: -55.259,
   },
+  followersDemo: '50 mil',
 } as const
 
 export type Contact = typeof contact
@@ -28,6 +29,16 @@ export function mapsDirectionsUrl(lat = contact.coords.lat, lng = contact.coords
 
 export function whatsappUrl(message: string, number = contact.whatsapp) {
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`
+}
+
+export function quickReserveMessage(lang = 'es') {
+  if (lang.startsWith('en')) return 'Hi Tartaruga, I would like to book a table.'
+  if (lang.startsWith('pt')) return 'Oi Tartaruga, quero reservar mesa.'
+  return 'Hola Tartaruga, quiero reservar mesa.'
+}
+
+export function quickReserveUrl(lang = 'es') {
+  return whatsappUrl(quickReserveMessage(lang))
 }
 
 export type ReservationDraft = {

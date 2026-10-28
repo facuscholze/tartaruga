@@ -7,7 +7,20 @@
 @import 'lenis/dist/lenis.css';
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: auto !important;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+section[id] {
+  scroll-margin-top: 5.5rem;
 }
 
 html,

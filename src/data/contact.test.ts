@@ -4,6 +4,8 @@ import {
   contact,
   mapsDirectionsUrl,
   mapsSearchUrl,
+  quickReserveMessage,
+  quickReserveUrl,
   whatsappUrl,
 } from './contact'
 
@@ -29,6 +31,11 @@ describe('contact', () => {
     expect(msg).toContain('Mascota: sí')
     expect(msg).toContain('mesa afuera')
     expect(whatsappUrl(msg)).toMatch(/^https:\/\/wa\.me\/59800000000\?text=/)
+  })
+
+  it('arma un WhatsApp corto para el botón fijo', () => {
+    expect(quickReserveMessage('es')).toMatch(/reservar mesa/i)
+    expect(quickReserveUrl('es')).toMatch(/^https:\/\/wa\.me\/59800000000\?text=/)
   })
 
   it('genera URLs de mapas', () => {

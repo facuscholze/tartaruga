@@ -9,7 +9,7 @@ export function SoundToggle() {
   return (
     <button
       type="button"
-      className="fixed bottom-4 left-4 z-50 rounded-full border border-foam/20 bg-navy/80 px-3 py-2 font-mono text-[0.62rem] tracking-[0.16em] text-foam uppercase backdrop-blur"
+      className="fixed top-20 left-4 z-40 hidden rounded-full border border-foam/20 bg-navy/80 px-3 py-2 font-mono text-[0.62rem] tracking-[0.16em] text-foam uppercase backdrop-blur md:block"
       aria-pressed={soundOn}
       aria-label={soundOn ? t('ui.soundOn') : t('ui.soundOff')}
       onClick={() => {

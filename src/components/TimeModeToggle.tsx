@@ -1,16 +1,21 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useApp } from '@/context/AppContext'
 import type { TimeMode } from '@/lib/dayState'
+import { readDemoFlag } from '@/lib/demoMode'
 
 const modes: TimeMode[] = ['auto', 'noon', 'sunset', 'night']
 
 export function TimeModeToggle() {
   const { t } = useTranslation()
   const { mode, setMode } = useApp()
+  const [demo] = useState(() => readDemoFlag())
+
+  if (!demo) return null
 
   return (
     <div
-      className="fixed right-4 bottom-4 z-50 flex gap-1 rounded-full border border-foam/20 bg-navy/80 p-1 backdrop-blur"
+      className="fixed top-20 right-4 z-40 hidden gap-1 rounded-full border border-foam/20 bg-navy/80 p-1 backdrop-blur md:flex"
       role="group"
       aria-label={t('ui.timeMode')}
     >

@@ -8,6 +8,7 @@ export type MenuItem = {
   name: Copy
   desc: Copy
   price: number
+  photo?: string
   demo: true
 }
 
@@ -23,6 +24,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 'croquetas',
     category: 'starters',
+    photo: 'plato-01',
     name: { es: 'Croquetas de sargo', en: 'Seabream croquettes', pt: 'Croquetes de sargo' },
     desc: {
       es: 'Pesca de la costa, alioli de ajo quemado.',
@@ -71,6 +73,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 'pulpo',
     category: 'grill',
+    photo: 'plato-02',
     name: { es: 'Pulpo a la brasa', en: 'Grilled octopus', pt: 'Polvo na brasa' },
     desc: {
       es: 'Papas arrugadas, pimentón y fuego lento.',
@@ -119,6 +122,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 'pesca',
     category: 'sea',
+    photo: 'plato-03',
     name: { es: 'Pesca del día al hierro', en: 'Catch of the day on iron', pt: 'Pesca do dia no ferro' },
     desc: {
       es: 'Lo que entra con la marea, limón y sal.',

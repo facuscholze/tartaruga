@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tartaruga Sea-Bar — Um dia no farol",
-    "description": "Sea-bar em frente ao farol de Punta Colorada. Mar, fogo e pôr do sol. Reservá mesa."
+    "title": "Tartaruga Sea-Bar | Restaurante e pôr do sol em Punta Colorada",
+    "description": "Restaurante em frente ao farol de Punta Colorada. Mar, fogo e pôr do sol. Reservá mesa no WhatsApp ou por telefone."
   },
   "skip": "Saltar ao conteúdo",
   "demo": "DEMO",
@@ -13,42 +13,53 @@
     "galeria": "Galeria",
     "mapa": "Como chegar",
     "reservas": "Reservas",
+    "propuesta": "Proposta",
     "open": "Abrir menu",
     "close": "Fechar menu"
   },
   "hero": {
-    "kicker": "Farol de Punta Colorada",
+    "kicker": "Restaurante · Farol de Punta Colorada",
     "title": "Um dia no farol",
     "lead": "O mar a um passo, o fogo na mesa, o sol descendo devagar. Aqui o dia se mede em marés e brasas.",
     "cta": "Reservar mesa",
-    "scroll": "Deslizá o dia"
+    "scroll": "Deslizá o dia",
+    "videoLabel": "Pôr do sol em Punta Colorada"
+  },
+  "sticky": {
+    "reserve": "Reservar",
+    "call": "Ligar",
+    "map": "Como chegar"
   },
   "lugar": {
     "kicker": "01 — Lugar",
     "title": "O deck entra no vento",
     "p1": "A metros do farol de Punta Colorada, Maldonado. Não é um postal: é o lugar onde fica tarde sem você perceber.",
-    "p2": "Madeira, ferro, cacto e o horizonte de 180 graus. De um lado o oceano, do outro a península. No meio, uma mesa."
+    "p2": "Madeira, ferro, cacto e o horizonte de 180 graus. De um lado o oceano, do outro a península. No meio, uma mesa.",
+    "cta": "Quero essa mesa"
   },
   "carta": {
     "kicker": "02 — Cardápio",
     "title": "O que a maré traz",
     "lead": "Pesca da costa, brasa e uma panela que não tem pressa. Preços DEMO, a confirmar.",
-    "priceNote": "UYU · DEMO"
+    "priceNote": "UYU · DEMO",
+    "cta": "Reservar e pedir isso"
   },
   "fuego": {
     "kicker": "03 — Fogo",
     "title": "A noite cozinha devagar",
-    "lead": "Braseiro, fogão e a panela de ferro no tripé. O mar fica preto; as brasas, não."
+    "lead": "Braseiro, fogão e a panela de ferro no tripé. O mar fica preto; as brasas, não.",
+    "cta": "Uma noite de fogo"
   },
   "experiencias": {
     "kicker": "04 — Experiências",
     "title": "Ficar até apagar",
-    "cta": "Quero esta mesa"
+    "cta": "Reservar esta mesa"
   },
   "pet": {
     "kicker": "05 — Pet friendly",
     "title": "Traz o cachorro",
-    "lead": "Tem água fresca, sombra debaixo da mesa e o mesmo horizonte. O mar é de todos."
+    "lead": "Tem água fresca, sombra debaixo da mesa e o mesmo horizonte. O mar é de todos.",
+    "cta": "Reservar com pet"
   },
   "artesanal": {
     "kicker": "06 — Artesanal",
@@ -58,20 +69,33 @@
   "galeria": {
     "kicker": "07 — Galeria",
     "title": "O que fica na retina",
-    "lead": "Placeholders de cor até entrarem as fotos reais. Toque para ampliar.",
+    "lead": "Fotos próprias do lugar. Toque para ampliar.",
     "close": "Fechar"
+  },
+  "reviews": {
+    "kicker": "O que se diz",
+    "title": "O farol, sem filtro",
+    "followers": "50 mil seguidores no Instagram",
+    "note": "Frases DEMO — trocar por avaliações reais."
+  },
+  "instagram": {
+    "kicker": "Instagram",
+    "title": "O feed, quieto",
+    "lead": "Seis recortes do lugar. O perfil segue no Instagram; a mesa, aqui.",
+    "cta": "Ver perfil"
   },
   "mapa": {
     "kicker": "08 — Como chegar",
     "title": "Punta Colorada, o remate do farol",
     "openMaps": "Abrir no Google Maps",
     "directions": "Como chegar",
-    "mapLabel": "Mapa de Punta Colorada com o farol"
+    "mapLabel": "Mapa de Punta Colorada com o farol",
+    "call": "Ligar"
   },
   "reservas": {
     "kicker": "09 — Reservas",
     "title": "Uma mesa, teu nome, o mar",
-    "lead": "Armamos a mensagem e te deixamos no WhatsApp. Também podes ligar.",
+    "lead": "Três passos. Armamos a mensagem e te deixamos no WhatsApp. Também podes ligar.",
     "name": "Nome",
     "date": "Data",
     "people": "Pessoas",
@@ -79,15 +103,40 @@
     "petYes": "Sim, com cachorro",
     "petNo": "Não",
     "notes": "Notas (opcional)",
-    "submit": "Reservar no WhatsApp",
+    "submit": "Abrir WhatsApp",
     "phone": "Ligar",
     "demoWa": "WhatsApp DEMO — trocar o número em contact.ts",
-    "required": "Completá nome, data e pessoas."
+    "required": "Completá este passo para seguir.",
+    "step": "Passo",
+    "of": "de",
+    "next": "Seguinte",
+    "back": "Voltar",
+    "step1": "Quando e quantos",
+    "step2": "Teu nome",
+    "step3": "Confirmar",
+    "summary": "Revisa e confirma. Um toque e o WhatsApp abre com tudo escrito.",
+    "sending": "Abrindo WhatsApp…",
+    "done": "Pronto. Se não abriu, toca de novo."
   },
   "beneficios": {
     "kicker": "10 — Para voltar",
     "title": "Um par de desculpas",
     "lead": "Promos discretas, sem quebrar o pôr do sol. Tudo DEMO."
+  },
+  "propuesta": {
+    "kicker": "Apresentação",
+    "title": "O que o feed não pode fazer",
+    "lead": "O Instagram mostra o pôr do sol. Este site senta à mesa.",
+    "beforeTitle": "Hoje",
+    "before": "O local vive no feed. A reserva viaja por DM, se perde entre stories e depende do algoritmo.",
+    "afterTitle": "Com este site",
+    "after": "Um toque: WhatsApp aberto, mesa pedida. O Google te encontra. O pôr do sol continua sendo o pôr do sol.",
+    "includes": "O que inclui",
+    "benefits": "Três coisas que se podem medir",
+    "metrics": "Painel de exemplo · DEMO",
+    "metricsNote": "Números de amostra para mostrar o que se poderia medir. Não são dados reais.",
+    "talk": "Vamos falar",
+    "talkLead": "Se isso te fecha, escreve e adaptamos ao restaurante."
   },
   "footer": {
     "hours": "Horários",
@@ -105,6 +154,7 @@
     "noon": "Meio-dia",
     "sunset": "Pôr do sol",
     "night": "Noite",
-    "loading": "Carregando Tartaruga"
+    "loading": "Carregando Tartaruga",
+    "skipLoader": "Saltar"
   }
 }

@@ -16,7 +16,15 @@ function spaFallback404() {
     closeBundle() {
       const index = path.resolve('dist/index.html')
       const dest = path.resolve('dist/404.html')
-      if (fs.existsSync(index)) fs.copyFileSync(index, dest)
+      if (!fs.existsSync(index)) return
+      const snapPath = path.resolve('scripts/seo-snapshot.html')
+      if (fs.existsSync(snapPath)) {
+        let html = fs.readFileSync(index, 'utf8')
+        const snap = fs.readFileSync(snapPath, 'utf8')
+        html = html.replace('<div id="root"></div>', `<div id="root">${snap}</div>`)
+        fs.writeFileSync(index, html)
+      }
+      fs.copyFileSync(index, dest)
     },
   }
 }
@@ -42,7 +50,7 @@ export default defineConfig({
     imagetools(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png'],
+      includeAssets: ['favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'og.png'],
       manifest: {
         name: 'Tartaruga Sea-Bar',
         short_name: 'Tartaruga',
@@ -70,6 +78,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,woff2,png,webp,avif,wav}'],
+        globIgnores: ['**/three-*.js', '**/lottie-*.js', '**/particles-*.js'],
         navigateFallback: `${repoBase}index.html`,
       },
     }),

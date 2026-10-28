@@ -1,14 +1,16 @@
 import { useLayoutEffect, useRef } from 'react'
 import { ShellMark, ClamMark, StarfishMark } from '@/components/Engravings'
 import { gsap, ScrollTrigger } from '@/lib/gsap'
-import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { useFinePointer, useReducedMotion } from '@/hooks/useReducedMotion'
+import { isLowPowerDevice } from '@/lib/device'
 
 export function FloatingShells() {
   const reduced = useReducedMotion()
+  const fine = useFinePointer()
   const ref = useRef<HTMLDivElement>(null)
 
   useLayoutEffect(() => {
-    if (reduced || !ref.current) return
+    if (reduced || !fine || isLowPowerDevice() || !ref.current) return
     const ctx = gsap.context(() => {
       gsap.utils.toArray<HTMLElement>('.float-shell').forEach((el, i) => {
         gsap.to(el, {
@@ -28,9 +30,9 @@ export function FloatingShells() {
       ctx.revert()
       ScrollTrigger.getAll()
     }
-  }, [reduced])
+  }, [reduced, fine])
 
-  if (reduced) return null
+  if (reduced || !fine) return null
 
   return (
     <div ref={ref} className="pointer-events-none fixed inset-0 z-20 overflow-hidden" aria-hidden>

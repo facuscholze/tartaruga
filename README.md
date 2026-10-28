@@ -4,6 +4,8 @@ Demo comercial de una sola página para **Tartaruga Sea-Bar**, sea-bar frente al
 
 **Demo:** [https://facuscholze.github.io/tartaruga/](https://facuscholze.github.io/tartaruga/)
 
+**Presentación para el dueño:** [https://facuscholze.github.io/tartaruga/?demo=1](https://facuscholze.github.io/tartaruga/?demo=1)
+
 > En GitHub: **Settings → Pages → Source = GitHub Actions**. El workflow publica en cada push a `main`.
 
 ## Comandos
@@ -15,23 +17,26 @@ npm run test         # Vitest
 npm run lint
 npm run build
 npm run preview      # http://localhost:4173/tartaruga/
-npm run e2e          # Playwright (mobile 375)
+npm run e2e          # Playwright (mobile 375 + desktop)
 npm run lhci         # Lighthouse CI
 ```
 
 ## Cómo reemplazar contenido DEMO
 
-| Qué              | Dónde                                         |
-| ---------------- | --------------------------------------------- |
-| WhatsApp         | `src/data/contact.ts` → `whatsapp`            |
-| Coordenadas      | `src/data/contact.ts` → `coords`              |
-| Teléfono         | `src/data/contact.ts`                           |
-| Carta y precios  | `src/data/menu.ts`                              |
-| Horarios         | `src/data/hours.ts`                             |
-| Galería          | `src/data/gallery.ts` + fotos en `src/assets/images/` |
-| Promos           | `src/data/benefits.ts`                          |
-| Textos ES/EN/PT  | `src/i18n/locales/`                             |
-| Fotos            | ver `src/assets/images/README.md`               |
+| Qué              | Dónde                                              |
+| ---------------- | -------------------------------------------------- |
+| WhatsApp         | `src/data/contact.ts` → `whatsapp`                 |
+| Coordenadas      | `src/data/contact.ts` → `coords`                   |
+| Teléfono         | `src/data/contact.ts`                              |
+| Carta y precios  | `src/data/menu.ts`                                 |
+| Horarios         | `src/data/hours.ts`                                |
+| Galería          | `src/data/gallery.ts`                              |
+| Reseñas          | `src/data/reviews.ts`                              |
+| Promos           | `src/data/benefits.ts`                             |
+| Textos ES/EN/PT  | `src/i18n/`                                        |
+| Fotos            | `src/assets/images/` (ver README ahí)              |
+| Video hero       | `public/video/hero.mp4`                            |
+| OG               | `public/og.png` (1200×630)                         |
 
 Todo lo marcado **DEMO** es placeholder para el dueño.
 

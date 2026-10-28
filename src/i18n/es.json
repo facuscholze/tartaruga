@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tartaruga Sea-Bar — Un día en el faro",
-    "description": "Sea-bar frente al faro de Punta Colorada. Mar, fuego y atardecer. Reservá mesa."
+    "title": "Tartaruga Sea-Bar | Restaurante y atardecer en Punta Colorada",
+    "description": "Restaurante frente al faro de Punta Colorada. Mar, fuego y atardecer. Reservá mesa por WhatsApp o teléfono."
   },
   "skip": "Saltar al contenido",
   "demo": "DEMO",
@@ -13,42 +13,53 @@
     "galeria": "Galería",
     "mapa": "Cómo llegar",
     "reservas": "Reservas",
+    "propuesta": "Propuesta",
     "open": "Abrir menú",
     "close": "Cerrar menú"
   },
   "hero": {
-    "kicker": "Faro de Punta Colorada",
+    "kicker": "Restaurante · Faro de Punta Colorada",
     "title": "Un día en el faro",
     "lead": "El mar a un paso, el fuego a la mesa, el sol bajando despacio. Acá el día se mide en mareas y brasas.",
     "cta": "Reservar mesa",
-    "scroll": "Deslizá el día"
+    "scroll": "Deslizá el día",
+    "videoLabel": "Atardecer en Punta Colorada"
+  },
+  "sticky": {
+    "reserve": "Reservar",
+    "call": "Llamar",
+    "map": "Cómo llegar"
   },
   "lugar": {
     "kicker": "01 — Lugar",
     "title": "El deck se mete en el viento",
     "p1": "A metros del faro de Punta Colorada, Maldonado. No es una postal: es el lugar donde se te hace tarde sin darte cuenta.",
-    "p2": "Madera, hierro, cactus y el horizonte de 180 grados. De un lado el océano, del otro la península. En el medio, una mesa."
+    "p2": "Madera, hierro, cactus y el horizonte de 180 grados. De un lado el océano, del otro la península. En el medio, una mesa.",
+    "cta": "Quiero esa mesa"
   },
   "carta": {
     "kicker": "02 — Carta",
     "title": "Lo que entra con la marea",
     "lead": "Pesca de la costa, brasa y una olla que no se apura. Precios DEMO, a confirmar.",
-    "priceNote": "UYU · DEMO"
+    "priceNote": "UYU · DEMO",
+    "cta": "Reservar y pedir esto"
   },
   "fuego": {
     "kicker": "03 — Fuego",
     "title": "La noche se cocina despacio",
-    "lead": "Brasero, fogón y la olla de hierro sobre el trípode. El mar queda negro; las brasas, no."
+    "lead": "Brasero, fogón y la olla de hierro sobre el trípode. El mar queda negro; las brasas, no.",
+    "cta": "Una noche de fuego"
   },
   "experiencias": {
     "kicker": "04 — Experiencias",
     "title": "Quedarse hasta que se apague",
-    "cta": "Quiero esta mesa"
+    "cta": "Reservar esta mesa"
   },
   "pet": {
     "kicker": "05 — Pet friendly",
     "title": "Traé al perro",
-    "lead": "Hay agua fresca, sombra bajo la mesa y el mismo horizonte. El mar es de todos."
+    "lead": "Hay agua fresca, sombra bajo la mesa y el mismo horizonte. El mar es de todos.",
+    "cta": "Reservar con mascota"
   },
   "artesanal": {
     "kicker": "06 — Artesanal",
@@ -58,20 +69,33 @@
   "galeria": {
     "kicker": "07 — Galería",
     "title": "Lo que queda en la retina",
-    "lead": "Placeholders de color hasta que entren las fotos reales. Tocá para ampliar.",
+    "lead": "Fotos propias del lugar. Tocá para ampliar.",
     "close": "Cerrar"
+  },
+  "reviews": {
+    "kicker": "Lo que se dice",
+    "title": "El faro, sin filtro",
+    "followers": "50 mil seguidores en Instagram",
+    "note": "Frases DEMO — a reemplazar por reseñas reales."
+  },
+  "instagram": {
+    "kicker": "Instagram",
+    "title": "El feed, acá quieto",
+    "lead": "Seis recortes del lugar. El perfil sigue en Instagram; la mesa, acá.",
+    "cta": "Ver perfil"
   },
   "mapa": {
     "kicker": "08 — Cómo llegar",
     "title": "Punta Colorada, el remate del faro",
     "openMaps": "Abrir en Google Maps",
     "directions": "Cómo llegar",
-    "mapLabel": "Mapa de Punta Colorada con el faro"
+    "mapLabel": "Mapa de Punta Colorada con el faro",
+    "call": "Llamar"
   },
   "reservas": {
     "kicker": "09 — Reservas",
     "title": "Una mesa, tu nombre, el mar",
-    "lead": "Armamos el mensaje y te dejamos en WhatsApp. También podés llamar.",
+    "lead": "Tres pasos. Armamos el mensaje y te dejamos en WhatsApp. También podés llamar.",
     "name": "Nombre",
     "date": "Fecha",
     "people": "Personas",
@@ -79,15 +103,40 @@
     "petYes": "Sí, con perro",
     "petNo": "No",
     "notes": "Notas (opcional)",
-    "submit": "Reservar por WhatsApp",
+    "submit": "Abrir WhatsApp",
     "phone": "Llamar",
     "demoWa": "WhatsApp DEMO — reemplazar número en contact.ts",
-    "required": "Completá nombre, fecha y personas."
+    "required": "Completá este paso para seguir.",
+    "step": "Paso",
+    "of": "de",
+    "next": "Siguiente",
+    "back": "Volver",
+    "step1": "Cuándo y cuántos",
+    "step2": "Tu nombre",
+    "step3": "Confirmá",
+    "summary": "Revisá y confirmá. Un toque y WhatsApp se abre con todo escrito.",
+    "sending": "Abriendo WhatsApp…",
+    "done": "Listo. Si no se abrió, tocá de nuevo."
   },
   "beneficios": {
     "kicker": "10 — Para volver",
     "title": "Un par de excusas",
     "lead": "Promos discretas, sin romper el atardecer. Todo DEMO."
+  },
+  "propuesta": {
+    "kicker": "Presentación",
+    "title": "Lo que el feed no puede hacer",
+    "lead": "Instagram muestra el atardecer. Esta web te sienta a la mesa.",
+    "beforeTitle": "Hoy",
+    "before": "El local vive en el feed. La reserva viaja por DM, se pierde entre stories y depende de que el algoritmo empuje.",
+    "afterTitle": "Con esta web",
+    "after": "Un toque: WhatsApp abierto, mesa pedida. Google te encuentra. El atardecer sigue siendo el atardecer.",
+    "includes": "Qué incluye",
+    "benefits": "Tres cosas que se pueden medir",
+    "metrics": "Panel de ejemplo · DEMO",
+    "metricsNote": "Números de muestra para mostrar qué se podría medir. No son datos reales.",
+    "talk": "Hablemos",
+    "talkLead": "Si esto te cierra, escribime y lo adaptamos al local."
   },
   "footer": {
     "hours": "Horarios",
@@ -105,6 +154,7 @@
     "noon": "Mediodía",
     "sunset": "Atardecer",
     "night": "Noche",
-    "loading": "Cargando Tartaruga"
+    "loading": "Cargando Tartaruga",
+    "skipLoader": "Saltar"
   }
 }
